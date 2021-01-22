@@ -27,7 +27,7 @@ public class CauldronContent : MonoBehaviour
     public int TemperatureIncrement;
 
     [Header("Effects")]
-    public GameObject SplashEffect;
+  //  public GameObject SplashEffect;
     public Animator CauldronAnimator;
     
     private VisualEffect splashVFX;
@@ -56,7 +56,7 @@ public class CauldronContent : MonoBehaviour
     private void Start()
     {
         m_CauldronEffect = GetComponent<CauldronEffects>();
-        splashVFX = SplashEffect.GetComponent<VisualEffect>();
+       // splashVFX = SplashEffect.GetComponent<VisualEffect>();
 
         m_StartingVolume = AmbientSoundSource.volume;
         AmbientSoundSource.volume = m_StartingVolume * 0.2f;
@@ -70,7 +70,7 @@ public class CauldronContent : MonoBehaviour
         Vector3 contactPosition = other.attachedRigidbody.gameObject.transform.position;
         contactPosition.y = gameObject.transform.position.y;
 
-        SplashEffect.transform.position = contactPosition;
+       // SplashEffect.transform.position = contactPosition;
         
         SFXPlayer.Instance.PlaySFX(SplashClips[Random.Range(0, SplashClips.Length)], contactPosition, new SFXPlayer.PlayParameters()
         {

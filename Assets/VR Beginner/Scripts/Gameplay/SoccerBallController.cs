@@ -17,7 +17,7 @@ public class SoccerBallController : MonoBehaviour
     void Start()
     {
         m_InteractableBase = GetComponent<XRGrabInteractable>();
-        devilHasBeenHit = GameObject.Find("Particle System devil").GetComponent<ParticleSystem>();
+       // devilHasBeenHit = GameObject.Find("Particle System devil").GetComponent<ParticleSystem>();
         
         m_InteractableBase.onSelectExit.AddListener(ballHasBeenThrown);
     }
@@ -46,6 +46,7 @@ public class SoccerBallController : MonoBehaviour
         {
             devilHasBeenHit.Play();
             other.gameObject.SetActive(false);
+            TasksController.soccerBallTaskFinished = true;
         }
     }
 

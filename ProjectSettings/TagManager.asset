@@ -6,6 +6,8 @@ TagManager:
   tags:
   - Ignite
   - devil
+  - PumpkinChest
+  - OnionChest
   layers:
   - Default
   - TransparentFX
