@@ -46,6 +46,7 @@ public class SoccerBallController : MonoBehaviour
         {
             devilHasBeenHit.Play();
             other.gameObject.SetActive(false);
+            UIButtonsHandler.throwBall = false;
             TasksController.soccerBallTaskFinished = true;
         }
     }
