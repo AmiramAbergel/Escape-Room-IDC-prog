@@ -309,6 +309,7 @@ MonoBehaviour:
   stepOutsideButton: {fileID: 585705168}
   goToSoccerTaskButton: {fileID: 0}
   goToFruitTaskButton: {fileID: 0}
+  goToFruitTaskFromSoccerButton: {fileID: 0}
   putFruitsInChestButton: {fileID: 0}
   onionToPutInChest: {fileID: 7827950622554487833}
   pumpkinToPutInChest: {fileID: 1740540520}
@@ -1056,7 +1057,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -207, y: 4}
+  m_AnchoredPosition: {x: -140, y: 4}
   m_SizeDelta: {x: 160, y: 30}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!1 &48839559 stripped
@@ -1502,6 +1503,7 @@ MonoBehaviour:
   stepOutsideButton: {fileID: 316701562}
   goToSoccerTaskButton: {fileID: 1950197175}
   goToFruitTaskButton: {fileID: 1334370844}
+  goToFruitTaskFromSoccerButton: {fileID: 0}
   putFruitsInChestButton: {fileID: 0}
   onionToPutInChest: {fileID: 7827950622554487833}
   pumpkinToPutInChest: {fileID: 1740540520}
@@ -6369,17 +6371,17 @@ RectTransform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 361484661}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalRotation: {x: -3.4924597e-10, y: 0.000000059604645, z: 0.0023983424, w: 0.9999972}
+  m_LocalPosition: {x: 0, y: 0, z: -0.00000035763}
+  m_LocalScale: {x: 1.8944244, y: 1.6795, z: 1}
   m_Children:
   - {fileID: 783658539}
   m_Father: {fileID: 1480018374}
   m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0.275}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -87, y: -1}
+  m_AnchoredPosition: {x: -158.66, y: -2.2416}
   m_SizeDelta: {x: 160, y: 30}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!4 &367677711 stripped
@@ -11761,85 +11763,6 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 671783077}
   m_PrefabAsset: {fileID: 0}
---- !u!1 &672461286
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 672461287}
-  - component: {fileID: 672461289}
-  - component: {fileID: 672461288}
-  m_Layer: 5
-  m_Name: Text
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!224 &672461287
-RectTransform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 672461286}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
-  m_Father: {fileID: 1823761433}
-  m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 0, y: 0}
-  m_Pivot: {x: 0.5, y: 0.5}
---- !u!114 &672461288
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 672461286}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 5f7201a12d95ffc409449d95f23cf332, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Material: {fileID: 0}
-  m_Color: {r: 0.19607843, g: 0.19607843, b: 0.19607843, a: 1}
-  m_RaycastTarget: 1
-  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
-  m_Maskable: 1
-  m_OnCullStateChanged:
-    m_PersistentCalls:
-      m_Calls: []
-  m_FontData:
-    m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
-    m_FontSize: 14
-    m_FontStyle: 0
-    m_BestFit: 0
-    m_MinSize: 10
-    m_MaxSize: 40
-    m_Alignment: 4
-    m_AlignByGeometry: 0
-    m_RichText: 1
-    m_HorizontalOverflow: 0
-    m_VerticalOverflow: 0
-    m_LineSpacing: 1
-  m_Text: Step Outside
---- !u!222 &672461289
-CanvasRenderer:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 672461286}
-  m_CullTransparentMesh: 1
 --- !u!1001 &679708816
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -13790,17 +13713,17 @@ RectTransform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 761194602}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalRotation: {x: -3.4924597e-10, y: 0.000000059604645, z: 0.0023983424, w: 0.9999972}
+  m_LocalPosition: {x: 0, y: 0, z: -0.00000029802}
+  m_LocalScale: {x: 1.8944244, y: 1.6795, z: 1}
   m_Children:
   - {fileID: 952211157}
   m_Father: {fileID: 1480018374}
   m_RootOrder: 1
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0.275}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 186, y: 0}
+  m_AnchoredPosition: {x: 253.66, y: 1.2416}
   m_SizeDelta: {x: 160, y: 30}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!1001 &765870278
@@ -14585,6 +14508,7 @@ MonoBehaviour:
   stepOutsideButton: {fileID: 575463849}
   goToSoccerTaskButton: {fileID: 0}
   goToFruitTaskButton: {fileID: 0}
+  goToFruitTaskFromSoccerButton: {fileID: 0}
   putFruitsInChestButton: {fileID: 0}
   onionToPutInChest: {fileID: 7827950622554487833}
   pumpkinToPutInChest: {fileID: 1740540520}
@@ -18818,7 +18742,7 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 1953391190}
         m_TargetAssemblyTypeName: UIButtonsHandler, Assembly-CSharp
-        m_MethodName: gotToFruitTask
+        m_MethodName: gotToFruitTaskFromSoccer
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -18874,16 +18798,16 @@ RectTransform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 947606905}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalPosition: {x: 0, y: 0, z: -0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 1644982382}
   m_Father: {fileID: 1953391194}
-  m_RootOrder: 1
+  m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 11, y: 229}
+  m_AnchoredPosition: {x: 175, y: 229}
   m_SizeDelta: {x: 160, y: 30}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!1001 &951777640
@@ -19940,11 +19864,11 @@ RectTransform:
   m_Children:
   - {fileID: 1705851147}
   m_Father: {fileID: 1953391194}
-  m_RootOrder: 2
+  m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -140, y: 88}
+  m_AnchoredPosition: {x: -31, y: 230}
   m_SizeDelta: {x: 160, y: 30}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!1001 &1006802331
@@ -25881,6 +25805,7 @@ MonoBehaviour:
   stepOutsideButton: {fileID: 75749399}
   goToSoccerTaskButton: {fileID: 0}
   goToFruitTaskButton: {fileID: 0}
+  goToFruitTaskFromSoccerButton: {fileID: 0}
   putFruitsInChestButton: {fileID: 0}
   onionToPutInChest: {fileID: 7827950622554487833}
   pumpkinToPutInChest: {fileID: 1740540520}
@@ -27723,6 +27648,10 @@ PrefabInstance:
       value: -0.7280003
       objectReference: {fileID: 0}
     - target: {fileID: 858314764, guid: d45e8a6999317d2428a51593da44d3ab, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -0.15199995
+      objectReference: {fileID: 0}
+    - target: {fileID: 858314764, guid: d45e8a6999317d2428a51593da44d3ab, type: 3}
       propertyPath: m_LocalPosition.z
       value: -1.0590003
       objectReference: {fileID: 0}
@@ -27730,6 +27659,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalPosition.x
       value: -0.7280005
+      objectReference: {fileID: 0}
+    - target: {fileID: 1526571659549516911, guid: d45e8a6999317d2428a51593da44d3ab,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -0.15199995
       objectReference: {fileID: 0}
     - target: {fileID: 1526571659549516911, guid: d45e8a6999317d2428a51593da44d3ab,
         type: 3}
@@ -27755,6 +27689,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalPosition.x
       value: 0.102
+      objectReference: {fileID: 0}
+    - target: {fileID: 1837324663698435755, guid: d45e8a6999317d2428a51593da44d3ab,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -0.15199995
       objectReference: {fileID: 0}
     - target: {fileID: 1837324663698435755, guid: d45e8a6999317d2428a51593da44d3ab,
         type: 3}
@@ -27800,6 +27739,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalPosition.x
       value: 0.102
+      objectReference: {fileID: 0}
+    - target: {fileID: 1837324663945620829, guid: d45e8a6999317d2428a51593da44d3ab,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -0.15199995
       objectReference: {fileID: 0}
     - target: {fileID: 1837324663945620829, guid: d45e8a6999317d2428a51593da44d3ab,
         type: 3}
@@ -27908,6 +27852,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1837324665045843318, guid: d45e8a6999317d2428a51593da44d3ab,
         type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -0.152
+      objectReference: {fileID: 0}
+    - target: {fileID: 1837324665045843318, guid: d45e8a6999317d2428a51593da44d3ab,
+        type: 3}
       propertyPath: m_LocalPosition.z
       value: -1.059
       objectReference: {fileID: 0}
@@ -27920,6 +27869,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalPosition.x
       value: 0.102
+      objectReference: {fileID: 0}
+    - target: {fileID: 7637474082502932776, guid: d45e8a6999317d2428a51593da44d3ab,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -0.15199995
       objectReference: {fileID: 0}
     - target: {fileID: 7637474082502932776, guid: d45e8a6999317d2428a51593da44d3ab,
         type: 3}
@@ -30311,6 +30265,7 @@ MonoBehaviour:
   stepOutsideButton: {fileID: 0}
   goToSoccerTaskButton: {fileID: 361484661}
   goToFruitTaskButton: {fileID: 761194602}
+  goToFruitTaskFromSoccerButton: {fileID: 0}
   putFruitsInChestButton: {fileID: 0}
   onionToPutInChest: {fileID: 7827950622554487833}
   pumpkinToPutInChest: {fileID: 1740540520}
@@ -30385,18 +30340,18 @@ RectTransform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1480018369}
-  m_LocalRotation: {x: -0, y: 0.71182036, z: -0, w: 0.70236164}
-  m_LocalPosition: {x: 0, y: 0, z: -0.5}
-  m_LocalScale: {x: 0.0061358064, y: 0.007917395, z: 1}
+  m_LocalRotation: {x: -0, y: 0.9143961, z: -0, w: 0.40482065}
+  m_LocalPosition: {x: 0, y: 0, z: -3.88}
+  m_LocalScale: {x: 0.007058632, y: 0.010180978, z: 1}
   m_Children:
   - {fileID: 361484665}
   - {fileID: 761194606}
   m_Father: {fileID: 0}
   m_RootOrder: 138
-  m_LocalEulerAnglesHint: {x: 0, y: 90.766, z: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 132.24, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
-  m_AnchoredPosition: {x: 10.21, y: 1.943}
+  m_AnchoredPosition: {x: 13.46, y: 4.25}
   m_SizeDelta: {x: 1920, y: 957}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!1001 &1480506354
@@ -35212,6 +35167,7 @@ MonoBehaviour:
   stepOutsideButton: {fileID: 1636668924}
   goToSoccerTaskButton: {fileID: 45364686}
   goToFruitTaskButton: {fileID: 0}
+  goToFruitTaskFromSoccerButton: {fileID: 0}
   putFruitsInChestButton: {fileID: 0}
   onionToPutInChest: {fileID: 7827950622554487833}
   pumpkinToPutInChest: {fileID: 1740540520}
@@ -35286,18 +35242,18 @@ RectTransform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1713787200}
-  m_LocalRotation: {x: -0, y: 0.88017833, z: -0, w: -0.47464323}
-  m_LocalPosition: {x: 0, y: 0, z: -9.654}
+  m_LocalRotation: {x: -0, y: 0.97139585, z: -0, w: -0.2374659}
+  m_LocalPosition: {x: 0, y: 0, z: -8.77}
   m_LocalScale: {x: 0.0049202666, y: 0.007917395, z: 1}
   m_Children:
   - {fileID: 1636668928}
   - {fileID: 45364690}
   m_Father: {fileID: 0}
   m_RootOrder: 140
-  m_LocalEulerAnglesHint: {x: 0, y: 236.672, z: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 207.474, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
-  m_AnchoredPosition: {x: 6.16, y: 2.343}
+  m_AnchoredPosition: {x: 6.6, y: 2.343}
   m_SizeDelta: {x: 1920, y: 957}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!1001 &1722642323
@@ -35866,6 +35822,7 @@ MonoBehaviour:
   stepOutsideButton: {fileID: 0}
   goToSoccerTaskButton: {fileID: 0}
   goToFruitTaskButton: {fileID: 816283171}
+  goToFruitTaskFromSoccerButton: {fileID: 0}
   putFruitsInChestButton: {fileID: 1770574962}
   onionToPutInChest: {fileID: 7827950622554487833}
   pumpkinToPutInChest: {fileID: 1740540520}
@@ -44355,139 +44312,6 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 1817426038}
   m_PrefabAsset: {fileID: 0}
---- !u!1 &1823761429
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 1823761433}
-  - component: {fileID: 1823761432}
-  - component: {fileID: 1823761431}
-  - component: {fileID: 1823761430}
-  m_Layer: 5
-  m_Name: stepOutsideButton
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!114 &1823761430
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1823761429}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 4e29b1a8efbd4b44bb3f3716e73f07ff, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Navigation:
-    m_Mode: 3
-    m_WrapAround: 0
-    m_SelectOnUp: {fileID: 0}
-    m_SelectOnDown: {fileID: 0}
-    m_SelectOnLeft: {fileID: 0}
-    m_SelectOnRight: {fileID: 0}
-  m_Transition: 1
-  m_Colors:
-    m_NormalColor: {r: 1, g: 1, b: 1, a: 1}
-    m_HighlightedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
-    m_PressedColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 1}
-    m_SelectedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
-    m_DisabledColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 0.5019608}
-    m_ColorMultiplier: 1
-    m_FadeDuration: 0.1
-  m_SpriteState:
-    m_HighlightedSprite: {fileID: 0}
-    m_PressedSprite: {fileID: 0}
-    m_SelectedSprite: {fileID: 0}
-    m_DisabledSprite: {fileID: 0}
-  m_AnimationTriggers:
-    m_NormalTrigger: Normal
-    m_HighlightedTrigger: Highlighted
-    m_PressedTrigger: Pressed
-    m_SelectedTrigger: Selected
-    m_DisabledTrigger: Disabled
-  m_Interactable: 1
-  m_TargetGraphic: {fileID: 1823761431}
-  m_OnClick:
-    m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 1953391190}
-        m_TargetAssemblyTypeName: UIButtonsHandler, Assembly-CSharp
-        m_MethodName: stepOutside
-        m_Mode: 1
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 1
---- !u!114 &1823761431
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1823761429}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_RaycastTarget: 1
-  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
-  m_Maskable: 1
-  m_OnCullStateChanged:
-    m_PersistentCalls:
-      m_Calls: []
-  m_Sprite: {fileID: 10905, guid: 0000000000000000f000000000000000, type: 0}
-  m_Type: 1
-  m_PreserveAspect: 0
-  m_FillCenter: 1
-  m_FillMethod: 4
-  m_FillAmount: 1
-  m_FillClockwise: 1
-  m_FillOrigin: 0
-  m_UseSpriteMesh: 0
-  m_PixelsPerUnitMultiplier: 1
---- !u!222 &1823761432
-CanvasRenderer:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1823761429}
-  m_CullTransparentMesh: 1
---- !u!224 &1823761433
-RectTransform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1823761429}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children:
-  - {fileID: 672461287}
-  m_Father: {fileID: 1953391194}
-  m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.5, y: 0.5}
-  m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 169, y: 87}
-  m_SizeDelta: {x: 160, y: 30}
-  m_Pivot: {x: 0.5, y: 0.5}
 --- !u!1001 &1823970388
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -46314,9 +46138,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3adf1a033c916204ab92c8045e8cc4b4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  stepOutsideButton: {fileID: 1823761429}
+  stepOutsideButton: {fileID: 0}
   goToSoccerTaskButton: {fileID: 0}
-  goToFruitTaskButton: {fileID: 947606905}
+  goToFruitTaskButton: {fileID: 0}
+  goToFruitTaskFromSoccerButton: {fileID: 947606905}
   putFruitsInChestButton: {fileID: 0}
   onionToPutInChest: {fileID: 7827950622554487833}
   pumpkinToPutInChest: {fileID: 1740540520}
@@ -46395,7 +46220,6 @@ RectTransform:
   m_LocalPosition: {x: 0, y: 0, z: 10.06}
   m_LocalScale: {x: 0.008612217, y: 0.007917395, z: 1}
   m_Children:
-  - {fileID: 1823761433}
   - {fileID: 947606909}
   - {fileID: 1006550811}
   m_Father: {fileID: 0}
