@@ -7,7 +7,7 @@ using UnityEngine.UI;
 public class Lock : MonoBehaviour
 {
     public UnityEvent unlock;
-    public string code = "ABD";
+    public string code = "21";
     string currentCode;
 
     public Text m_codeDisplay;
