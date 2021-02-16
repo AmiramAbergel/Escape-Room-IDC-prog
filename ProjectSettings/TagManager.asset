@@ -8,6 +8,7 @@ TagManager:
   - devil
   - PumpkinChest
   - OnionChest
+  - hasInfo
   layers:
   - Default
   - TransparentFX
