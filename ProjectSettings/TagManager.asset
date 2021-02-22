@@ -9,6 +9,8 @@ TagManager:
   - PumpkinChest
   - OnionChest
   - hasInfo
+  - dog
+  - cat
   layers:
   - Default
   - TransparentFX

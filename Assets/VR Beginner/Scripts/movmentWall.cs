@@ -10,7 +10,7 @@ public class movmentWall : MonoBehaviour
  private void Update()
  {
 
-    transform.position = Vector3.MoveTowards(transform.position, target, Time.deltaTime * speed);
+    //transform.position = Vector3.MoveTowards(transform.position, target, Time.deltaTime * speed);
 
  }
 }
