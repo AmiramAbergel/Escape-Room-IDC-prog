@@ -34966,7 +34966,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   downTransform: {fileID: 287293204}
   buttonMesh: {fileID: 280895612}
-  lockpad: {fileID: 0}
+  lockpad: {fileID: 82760285}
   key: 2
 --- !u!65 &1691890750
 BoxCollider:
@@ -47220,7 +47220,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   downTransform: {fileID: 906953466}
   buttonMesh: {fileID: 904419427}
-  lockpad: {fileID: 0}
+  lockpad: {fileID: 82760285}
   key: 1
 --- !u!65 &1974432034
 BoxCollider:
