@@ -3,11 +3,13 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.Events;
 using UnityEngine.UI;
+using UnityEngine.SceneManagement;
 
 
 public class UIButtonsHandler : MonoBehaviour
 {
     private Vector3 resetPos = new Vector3(-1.81200004f,-0.10100048f,-1.42499995f);
+    public GameObject EscapeNextButton;
     public GameObject stepOutsideButton;
     public GameObject goToSoccerTaskButton;
     public GameObject goToSoccerTaskFromFruitButton;
@@ -129,6 +131,11 @@ public class UIButtonsHandler : MonoBehaviour
     {
         player.transform.position = new Vector3(6.73199987f,25.3099995f,-2.59290004f);
         player.transform.Rotate(50, 190, 0);
+    }
+
+    public void Nextlevel()
+    {
+        SceneManager.LoadScene(2);
     }
 
     public void EnterCode()
