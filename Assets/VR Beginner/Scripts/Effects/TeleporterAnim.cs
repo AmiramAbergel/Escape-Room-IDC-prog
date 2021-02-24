@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.Serialization;
+using UnityEngine.SceneManagement;
 
 public class TeleporterAnim : MonoBehaviour
 {
@@ -66,5 +67,13 @@ public class TeleporterAnim : MonoBehaviour
     public void StopHighlight()
     {
         m_Highlighted = false;
+    }
+    public void loadlevel(string PrototypeScene)
+    {
+        SceneManager.LoadScene(PrototypeScene);
+    }
+    public void lastRecoredTeleport()
+    {
+        GameObject.Find("Experiment").GetComponent<ExampleExperimentController>().lastTeleport();
     }
 }

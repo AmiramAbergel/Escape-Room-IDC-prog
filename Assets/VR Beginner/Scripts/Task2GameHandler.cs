@@ -80,6 +80,7 @@ public class Task2GameHandler : MonoBehaviour
             GoToTask3Button.SetActive(true);
             DogButton.SetActive(false);
             CatButton.SetActive(false);
+            movmentWall.T2 = true;
         }
     }
 }

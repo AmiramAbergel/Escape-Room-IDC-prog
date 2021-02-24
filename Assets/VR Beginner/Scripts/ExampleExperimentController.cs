@@ -35,7 +35,7 @@ public class ExampleExperimentController : MonoBehaviour {
 
 
     // This function is called when we click the sphere
-    public void LastTeleport()
+    public void lastTeleport()
     {
 
         // now we end the trial, which stores data for this trial, then increments the trial number
